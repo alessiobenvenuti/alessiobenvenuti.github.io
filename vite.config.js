@@ -1,7 +1,10 @@
-// vite.config.js
-export default {
+import { defineConfig } from 'vite';
+
+export default defineConfig({
   base: '/alessiobenvenuti.github.io/',
-  build: {
-    outDir: 'dist',
+  resolve: {
+    alias: {
+      'three': '/node_modules/three',
+    },
   },
-};
+});
