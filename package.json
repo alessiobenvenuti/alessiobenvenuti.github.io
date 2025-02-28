@@ -1,0 +1,41 @@
+{
+  "name": "prolepsis-construct",
+  "version": "1.0.0",
+  "description": "A Minimalistic \"Under Construction\" Three.js Scene",
+  "main": "main.js",
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "serve": "vite preview",
+  "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessiobenvenuti/alessiobenvenuti.github.io.git"
+  },
+  "keywords": [
+    "three.js",
+    "construction",
+    "under construction",
+    "website in progress",
+    "3d placeholder",
+    "minimalistic",
+    "coming soon",
+    "interactive",
+    "web development",
+    "frontend"
+  ],
+  "author": "Alessio Benvenuti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessiobenvenuti/alessiobenvenuti.github.io/issues"
+  },
+  "homepage": "https://github.com/alessiobenvenuti/alessiobenvenuti.github.io#readme",
+  "dependencies": {
+    "three": "^0.174.0",
+    "vite": "^6.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
