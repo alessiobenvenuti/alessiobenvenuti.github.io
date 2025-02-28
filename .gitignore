@@ -1,0 +1,27 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE config files
+.idea/
+.vscode/
+
+# Ignore all the files from the build except the dist folder
+/build/
+
+# Ignore the package-lock.json if you don't want to track it (optional)
+package-lock.json
+
+# But keep the dist folder for GitHub Pages
+!dist/
