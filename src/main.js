@@ -42,7 +42,7 @@ let crane, bricks;
 // Flag per sapere quando i modelli sono caricati
 let modelsLoaded = false;
 
-loader.load('../assets/crane.fbx', (object) => {
+loader.load('/assets/crane.fbx', (object) => {
     crane = object;
     crane.scale.set(0.01, 0.01, 0.01);
     crane.position.set(0, 25, 0);
