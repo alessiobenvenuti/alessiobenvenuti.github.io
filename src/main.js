@@ -16,7 +16,7 @@ light.position.set(5, 10, 7).normalize();
 scene.add(light);
 
 // Aggiungi la luce ambientale
-const ambientLight = new THREE.AmbientLight(0x404040, 1); // Colore grigio chiaro e intensità 1
+const ambientLight = new THREE.AmbientLight(0xffffff, 2); // Colore grigio chiaro e intensità 1
 scene.add(ambientLight);
 
 // Aggiungi uno Skybox con colore personalizzato
@@ -42,7 +42,7 @@ let crane, bricks;
 // Flag per sapere quando i modelli sono caricati
 let modelsLoaded = false;
 
-loader.load('/assets/crane.fbx', (object) => {
+loader.load('../assets/crane.fbx', (object) => {
     crane = object;
     crane.scale.set(0.01, 0.01, 0.01);
     crane.position.set(0, 25, 0);
